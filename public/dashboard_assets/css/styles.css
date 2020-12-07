@@ -1,0 +1,107 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.headerbar {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999; }
+  
+  .headerbar .headerbar-left {
+      background: #4980b5;
+      float: left;
+      text-align: center;
+      height: 50px;
+      position: relative;
+      width: 250px;
+      z-index: 1; }
+     
+  .headerbar .headerbar-left .logo img {
+      max-width: 100px;
+      max-height: 30px;
+      width: auto;
+      height: auto;
+  }
+        
+  .navbar-custom {
+    background-color: #4980b5 ;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0 10px;
+    margin-left: 250px;
+    min-height: 50px;}
+    
+  .navbar-custom .nav-link {
+      padding: 0 8px;
+      line-height: 50px;
+      color: #e9f2ff;
+      font-size: 20px; }
+  
+  .navbar-custom .dropdown-toggle:after {
+      content: initial; }
+  
+  .navbar-custom .menu-left {
+      overflow: hidden; }
+  
+  .logo {
+    color: #e3ebf3 !important;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    line-height: 48px; }
+    
+  .logo span span {
+      color: #fff; }
+  
+  .main-sidebar {
+    top: 50px;
+    width: 250px;
+    z-index: 10;
+    background: #262D33;
+    bottom: 70px;
+    margin-bottom: -70px;
+    margin-top: 0;
+    padding-bottom: 70px;
+    position: absolute; }
+  
+  .content-page {
+    margin-left: 250px;
+    overflow: hidden; }
+    
+  .content-page .content {
+      padding: 0 5px;
+      margin-top: 50px; }
+  
+  .main-sidebar.left {
+    position: absolute; 
+    height: 100%;
+    }
+  
+  body.adminbody .main-sidebar.left {
+    bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding-bottom: 0px; }
+  
+  .button-menu-mobile {
+    background: transparent;
+    border: none;
+    color: #dde8ef;
+    font-size: 28px;
+    line-height: 50px;
+    padding: 0 5px;
+    margin-right: 10px;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      overflow: hidden; 
+      vertical-align: middle;
+      z-index: 1;  }
+    .button-menu-mobile:hover {
+      color: #a2cff7; }
+  
+  .sideba
